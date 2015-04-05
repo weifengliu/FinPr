@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DDFA35F1AC6EB1C0085342F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DDFA35E1AC6EB1C0085342F /* main.cpp */; };
+		3D0DA8471AD0827400910D56 /* SimplePropertySet.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */; };
+		3D0DA8481AD0838A00910D56 /* SimplePropertySet.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */; };
+		3D5907F81ACF387800CF4B3C /* property.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D5907F41ACF36C300CF4B3C /* property.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D0DA8431AD07EF400910D56 /* SimplePropertySet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimplePropertySet.cpp; path = FinPr/src/SimplePropertySet.cpp; sourceTree = SOURCE_ROOT; };
+		3D5907F41ACF36C300CF4B3C /* property.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = property.hpp; path = FinPr/inc/property.hpp; sourceTree = SOURCE_ROOT; };
+		3D5907F61ACF36C300CF4B3C /* property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = property.cpp; path = FinPr/src/property.cpp; sourceTree = SOURCE_ROOT; };
+		3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SimplePropertySet.hpp; path = FinPr/inc/SimplePropertySet.hpp; sourceTree = SOURCE_ROOT; };
 		3DDFA35B1AC6EB1C0085342F /* FinPr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinPr; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DDFA35E1AC6EB1C0085342F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +43,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D5907F21ACF36C300CF4B3C /* FinPr */ = {
+			isa = PBXGroup;
+			children = (
+				3D5907F31ACF36C300CF4B3C /* inc */,
+				3D5907F51ACF36C300CF4B3C /* src */,
+			);
+			path = FinPr;
+			sourceTree = "<group>";
+		};
+		3D5907F31ACF36C300CF4B3C /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				3D5907F41ACF36C300CF4B3C /* property.hpp */,
+				3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		3D5907F51ACF36C300CF4B3C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3D5907F61ACF36C300CF4B3C /* property.cpp */,
+				3D0DA8431AD07EF400910D56 /* SimplePropertySet.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		3DDFA3521AC6EB1C0085342F = {
 			isa = PBXGroup;
 			children = (
-				3DDFA35D1AC6EB1C0085342F /* FinPr */,
+				3D5907F21ACF36C300CF4B3C /* FinPr */,
 				3DDFA35C1AC6EB1C0085342F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +86,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DDFA35D1AC6EB1C0085342F /* FinPr */ = {
-			isa = PBXGroup;
-			children = (
-				3DDFA35E1AC6EB1C0085342F /* main.cpp */,
-			);
-			path = FinPr;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D5907F91ACF38A100CF4B3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0DA8471AD0827400910D56 /* SimplePropertySet.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3DDFA35A1AC6EB1C0085342F /* FinPr */ = {
@@ -72,6 +107,7 @@
 				3DDFA3571AC6EB1C0085342F /* Sources */,
 				3DDFA3581AC6EB1C0085342F /* Frameworks */,
 				3DDFA3591AC6EB1C0085342F /* CopyFiles */,
+				3D5907F91ACF38A100CF4B3C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -118,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDFA35F1AC6EB1C0085342F /* main.cpp in Sources */,
+				3D0DA8481AD0838A00910D56 /* SimplePropertySet.hpp in Sources */,
+				3D5907F81ACF387800CF4B3C /* property.hpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +269,7 @@
 				3DDFA3641AC6EB1C0085342F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
