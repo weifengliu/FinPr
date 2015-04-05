@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D0DA8471AD0827400910D56 /* SimplePropertySet.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */; };
-		3D0DA8481AD0838A00910D56 /* SimplePropertySet.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */; };
-		3D5907F81ACF387800CF4B3C /* property.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D5907F41ACF36C300CF4B3C /* property.hpp */; };
+		3D1DE33B1AD1B827009CD0BF /* test_property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DE32D1AD1AF73009CD0BF /* test_property.cpp */; };
+		3D1DE33C1AD1B82D009CD0BF /* SimplePropertySet.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3D0DA8431AD07EF400910D56 /* SimplePropertySet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimplePropertySet.cpp; path = FinPr/src/SimplePropertySet.cpp; sourceTree = SOURCE_ROOT; };
+		3D1DE32D1AD1AF73009CD0BF /* test_property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_property.cpp; path = FinPr/test/test_property.cpp; sourceTree = SOURCE_ROOT; };
 		3D5907F41ACF36C300CF4B3C /* property.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = property.hpp; path = FinPr/inc/property.hpp; sourceTree = SOURCE_ROOT; };
 		3D5907F61ACF36C300CF4B3C /* property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = property.cpp; path = FinPr/src/property.cpp; sourceTree = SOURCE_ROOT; };
 		3D5907FA1ACF3BE300CF4B3C /* SimplePropertySet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SimplePropertySet.hpp; path = FinPr/inc/SimplePropertySet.hpp; sourceTree = SOURCE_ROOT; };
@@ -43,9 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1DE32C1AD1AF73009CD0BF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3D1DE32D1AD1AF73009CD0BF /* test_property.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		3D5907F21ACF36C300CF4B3C /* FinPr */ = {
 			isa = PBXGroup;
 			children = (
+				3D1DE32C1AD1AF73009CD0BF /* test */,
 				3D5907F31ACF36C300CF4B3C /* inc */,
 				3D5907F51ACF36C300CF4B3C /* src */,
 			);
@@ -93,7 +102,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0DA8471AD0827400910D56 /* SimplePropertySet.hpp in Headers */,
+				3D1DE33C1AD1B82D009CD0BF /* SimplePropertySet.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0DA8481AD0838A00910D56 /* SimplePropertySet.hpp in Sources */,
-				3D5907F81ACF387800CF4B3C /* property.hpp in Sources */,
+				3D1DE33B1AD1B827009CD0BF /* test_property.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

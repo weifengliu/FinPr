@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2619884A-B1BA-469B-A53D-10D3C551A87B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FinPr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDDC1954AFE8352A49E6DBEA4106BFC74923661E</key>
+		<string>github.com:weifengliu/FinPr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FinPr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDDC1954AFE8352A49E6DBEA4106BFC74923661E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:weifengliu/FinPr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDDC1954AFE8352A49E6DBEA4106BFC74923661E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDDC1954AFE8352A49E6DBEA4106BFC74923661E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FinPr</string>
+		</dict>
+	</array>
+</dict>
+</plist>
