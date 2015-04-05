@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Weifeng Liu. All rights reserved.
 //
 
-#ifndef FinPr_SimplePropertySet_hpp
-#define FinPr_SimplePropertySet_hpp
+#ifndef SimplePropertySet_hpp
+#define SimplePropertySet_hpp
 
-#include "src\property.cpp"
+#include "src/property.cpp"
 #include <list>
 
 using namespace std;
@@ -54,6 +54,6 @@ public:
 	
 	// Operators
 	SimplePropertySet<N, V> operator = (const SimplePropertySet<N, V>& source);
-}
+};
 
 #endif

@@ -11,6 +11,7 @@
 #include "inc/SimplePropertySet.hpp"
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 void print(const SimplePropertySet<string,double>& pset)
@@ -42,10 +43,11 @@ int main()
 	Property<string, double> T;		// Expiry date
 	Property<string, double> U;		// Current underlying price (e.g. stock, forward)
 	Property<string, double> b;		// Cost of carry
+	
+	//Property<string, double> r = Property<string, double>("Interest rate", 0.08);
 
-
-	r = Property<string, double> ("Interest rate", 0.08);
-	sig= Property<string, double> ("Volatility",0.30);
+	r = Property<string, double>("Interest rate", 0.08);
+	sig= Property<string, double>("Volatility",0.30);
 	K = Property<string, double>("Strike Price", 65.0);
 	T = Property<string, double>("Expiry date", 0.25);
 	U = Property<string, double>("Underlying Asset", 60.0);		

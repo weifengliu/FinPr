@@ -21,7 +21,6 @@ template <class Name = string, class Value = double> class Property
 private:
 	Name nam;
 	Value val;
-	Property<Name, Value>& operator = (const Property<Name, Value>& source);
 	
 public:
 	Property();
@@ -38,6 +37,8 @@ public:
 	virtual void operator ()(const Value& new_val);
 	
 	bool operator == (const Property<Name, Value>& prop2);
+	Property<Name, Value>& operator = (const Property<Name, Value>& source);
+
 };
 
 #endif

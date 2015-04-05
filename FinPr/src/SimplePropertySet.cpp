@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Weifeng Liu. All rights reserved.
 //
 
-#ifndef FinPr_SimplePropertySet_hpp
-#define FinPr_SimplePropertySet_hpp
+#ifndef SimplePropertySet_hpp
+#define SimplePropertySet_hpp
 
 #include "inc/SimplePropertySet.hpp"
 

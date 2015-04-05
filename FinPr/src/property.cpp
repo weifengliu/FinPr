@@ -47,8 +47,8 @@ template <class Name, class Value>
 Property<Name, Value> :: Property(const Property<Name, Value>& source)
 {
 	// Constructor
-	nam = source.name;
-	val = source.v;
+	nam = source.nam;
+	val = source.val;
 }
 
 template <class Name, class Value>
